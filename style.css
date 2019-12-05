@@ -6,6 +6,7 @@
     border-bottom: solid 40px #DDDDDD;
     min-height: calc(100vh - 70px);
 }
+<hr>
 #header {
 }
 footer p {
@@ -42,8 +43,12 @@ h1 {
     color:#4aaaa5;
  }
 #hr2{
-    border: solid 1px #4AAAA5;
+    border: solid 8px #4aaaa5;
     margin: 0px;
+}
+#hr3{
+    border: solid 8px #4aaaa5;
+    margin: auto;
 }
 #main p {
     margin-bottom: 1.5em;
@@ -51,4 +56,20 @@ h1 {
 #text {
    font-size: 20px ;
 }
+#contact2 { background-color: white;
+    padding: .5px;
+    color: #4aaaa5;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.box {border: solid black 2px;
+    margin: 2px;
+}
+#box2 { border: solid black 2px;
+    margin: 0px;
+    width: inherit;
+    height: 400px;
+}
+#name {font: bold}
+#email {font: bold}
 
